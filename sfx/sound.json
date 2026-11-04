@@ -98,5 +98,121 @@
   ],
   "gain": 0.8,
   "rate": 0.7
+ },
+ "ratBite": {
+  "files": [
+   "bug_01_36228a.ogg",
+   "bug_02_45ee35.ogg"
+  ],
+  "gain": 0.5,
+  "rate": 1.3
+ },
+ "ratAggro": {
+  "files": [
+   "cute_03_10417b.ogg"
+  ],
+  "gain": 0.4,
+  "rate": 1.4
+ },
+ "ratHurt": {
+  "files": [
+   "cute_01_34aa64.ogg",
+   "cute_02_589739.ogg"
+  ],
+  "gain": 0.5,
+  "rate": 1.3
+ },
+ "ratDie": {
+  "files": [
+   "cute_05_eafaf4.ogg"
+  ],
+  "gain": 0.5,
+  "rate": 1.1
+ },
+ "boarAttack": {
+  "files": [
+   "piggrunt1_9d605b.wav",
+   "piggrunt2_101d3b.wav"
+  ],
+  "gain": 0.6
+ },
+ "boarAggro": {
+  "files": [
+   "creature_monster_01_7f3352.ogg"
+  ],
+  "gain": 0.6,
+  "rate": 0.8
+ },
+ "boarHurt": {
+  "files": [
+   "troll_03_806a75.ogg",
+   "monster_03_ec4246.ogg"
+  ],
+  "gain": 0.55,
+  "rate": 1.1
+ },
+ "boarDie": {
+  "files": [
+   "creature_monster_03_ad428b.ogg"
+  ],
+  "gain": 0.65,
+  "rate": 0.7
+ },
+ "stairs": {
+  "files": [
+   "sfx_movement_stairs1a_dbe080.wav"
+  ],
+  "gain": 0.5
+ },
+ "gatherWood": {
+  "files": [
+   "chop_44d508.ogg",
+   "sfx100v2_wood_hit_01_69fe15.ogg"
+  ],
+  "gain": 0.6
+ },
+ "gatherPick": {
+  "files": [
+   "impactMining_000_20fe04.ogg",
+   "impactMining_002_e1aee4.ogg"
+  ],
+  "gain": 0.6
+ },
+ "gatherHerb": {
+  "files": [
+   "cloth2_6e9653.ogg",
+   "footstep_grass_002_740be3.ogg"
+  ],
+  "gain": 0.45
+ },
+ "gatherDone": {
+  "files": [
+   "item_gem_02_c4cd1d.ogg"
+  ],
+  "gain": 0.4
+ },
+ "uiClick": {
+  "files": [
+   "click_002_ab55a4.ogg"
+  ],
+  "gain": 0.4
+ },
+ "coin": {
+  "files": [
+   "handleCoins2_b0770f.ogg"
+  ],
+  "gain": 0.55
+ },
+ "pickup": {
+  "files": [
+   "clothBelt_4249c3.ogg"
+  ],
+  "gain": 0.55
+ },
+ "bagFull": {
+  "files": [
+   "scratch_001_1f671a.ogg"
+  ],
+  "gain": 0.5
  }
 }

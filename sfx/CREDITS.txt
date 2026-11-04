@@ -7,6 +7,18 @@ Single_Fantasy_SFX_Pack_Vol_1_Bow_Arrow__8e069a.wav  <-  JC Sounds Fantasy SFX V
 Single_Fantasy_SFX_Pack_Vol_1_Bow_Arrow__baa366.wav  <-  JC Sounds Fantasy SFX Vol 1  Single_Fantasy SFX Pack Vol 1_Bow_Arrow_Shoot_02.wav  CC BY 4.0 (출처 표시)  https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1
 barking_01_a33f93.ogg  <-  80 CC0 creature SFX  barking_01.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 barking_02_a4e49a.ogg  <-  80 CC0 creature SFX  barking_02.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+bug_01_36228a.ogg  <-  80 CC0 creature SFX  bug_01.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+bug_02_45ee35.ogg  <-  80 CC0 creature SFX  bug_02.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+chop_44d508.ogg  <-  Kenney RPG Audio  chop.ogg  CC0  https://kenney.nl/assets/rpg-audio
+click_002_ab55a4.ogg  <-  Kenney Interface Sounds  click_002.ogg  CC0  https://kenney.nl/assets/interface-sounds
+cloth2_6e9653.ogg  <-  Kenney RPG Audio  cloth2.ogg  CC0  https://kenney.nl/assets/rpg-audio
+clothBelt_4249c3.ogg  <-  Kenney RPG Audio  clothBelt.ogg  CC0  https://kenney.nl/assets/rpg-audio
+creature_monster_01_7f3352.ogg  <-  80 CC0 RPG SFX  creature_monster_01.ogg  CC0  https://opengameart.org/content/80-cc0-rpg-sfx
+creature_monster_03_ad428b.ogg  <-  80 CC0 RPG SFX  creature_monster_03.ogg  CC0  https://opengameart.org/content/80-cc0-rpg-sfx
+cute_01_34aa64.ogg  <-  80 CC0 creature SFX  cute_01.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+cute_02_589739.ogg  <-  80 CC0 creature SFX  cute_02.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+cute_03_10417b.ogg  <-  80 CC0 creature SFX  cute_03.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+cute_05_eafaf4.ogg  <-  80 CC0 creature SFX  cute_05.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 doorClose_1_7e0d0e.ogg  <-  Kenney RPG Audio  doorClose_1.ogg  CC0  https://kenney.nl/assets/rpg-audio
 doorClose_2_8de19b.ogg  <-  Kenney RPG Audio  doorClose_2.ogg  CC0  https://kenney.nl/assets/rpg-audio
 doorOpen_1_6946af.ogg  <-  Kenney RPG Audio  doorOpen_1.ogg  CC0  https://kenney.nl/assets/rpg-audio
@@ -15,14 +27,26 @@ footstep00_67a7fb.ogg  <-  Kenney RPG Audio  footstep00.ogg  CC0  https://kenney
 footstep01_a2d5ef.ogg  <-  Kenney RPG Audio  footstep01.ogg  CC0  https://kenney.nl/assets/rpg-audio
 footstep02_5673b3.ogg  <-  Kenney RPG Audio  footstep02.ogg  CC0  https://kenney.nl/assets/rpg-audio
 footstep03_46c4e3.ogg  <-  Kenney RPG Audio  footstep03.ogg  CC0  https://kenney.nl/assets/rpg-audio
+footstep_grass_002_740be3.ogg  <-  Kenney Impact Sounds  footstep_grass_002.ogg  CC0  https://kenney.nl/assets/impact-sounds
 grunt_01_686dc8.ogg  <-  80 CC0 creature SFX  grunt_01.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 grunt_02_dac171.ogg  <-  80 CC0 creature SFX  grunt_02.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 grunt_03_4dce5e.ogg  <-  80 CC0 creature SFX  grunt_03.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+handleCoins2_b0770f.ogg  <-  Kenney RPG Audio  handleCoins2.ogg  CC0  https://kenney.nl/assets/rpg-audio
 howl_d92529.ogg  <-  80 CC0 creature SFX  howl.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 hurt_01_ae82ad.ogg  <-  80 CC0 creature SFX  hurt_01.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 hurt_02_58143f.ogg  <-  80 CC0 creature SFX  hurt_02.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 hurt_03_3d962c.ogg  <-  80 CC0 creature SFX  hurt_03.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
 hurt_04_0da095.ogg  <-  80 CC0 creature SFX  hurt_04.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+impactMining_000_20fe04.ogg  <-  Kenney Impact Sounds  impactMining_000.ogg  CC0  https://kenney.nl/assets/impact-sounds
+impactMining_002_e1aee4.ogg  <-  Kenney Impact Sounds  impactMining_002.ogg  CC0  https://kenney.nl/assets/impact-sounds
+item_gem_02_c4cd1d.ogg  <-  80 CC0 RPG SFX  item_gem_02.ogg  CC0  https://opengameart.org/content/80-cc0-rpg-sfx
+monster_03_ec4246.ogg  <-  80 CC0 creature SFX  monster_03.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx
+piggrunt1_9d605b.wav  <-  15 monster grunt/pain/death  piggrunt1.wav  CC BY 3.0 (출처 표시: Michel Baradari)  https://opengameart.org/content/15-monster-gruntpaindeath-sounds
+piggrunt2_101d3b.wav  <-  15 monster grunt/pain/death  piggrunt2.wav  CC BY 3.0 (출처 표시: Michel Baradari)  https://opengameart.org/content/15-monster-gruntpaindeath-sounds
+scratch_001_1f671a.ogg  <-  Kenney Interface Sounds  scratch_001.ogg  CC0  https://kenney.nl/assets/interface-sounds
+sfx100v2_wood_hit_01_69fe15.ogg  <-  100 CC0 SFX #2  sfx100v2_wood_hit_01.ogg  CC0  https://opengameart.org/content/100-cc0-sfx-2
+sfx_movement_stairs1a_dbe080.wav  <-  512 Sound Effects 8-bit (Juhani Junkala)  sfx_movement_stairs1a.wav  CC0  https://opengameart.org/content/512-sound-effects-8-bit-style
 stones_01_cb12a9.ogg  <-  80 CC0 RPG SFX  stones_01.ogg  CC0  https://opengameart.org/content/80-cc0-rpg-sfx
 swing2_d887bb.wav  <-  RPG Sound Pack (artisticdude)  swing2.wav  CC0  https://opengameart.org/content/rpg-sound-pack
 swing3_4a9889.wav  <-  RPG Sound Pack (artisticdude)  swing3.wav  CC0  https://opengameart.org/content/rpg-sound-pack
+troll_03_806a75.ogg  <-  80 CC0 creature SFX  troll_03.ogg  CC0  https://opengameart.org/content/80-cc0-creature-sfx

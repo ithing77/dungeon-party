@@ -154,5 +154,149 @@
   "pack": "JC Sounds Fantasy SFX Vol 1",
   "license": "CC BY 4.0 (출처 표시)",
   "url": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1"
+ },
+ "bug_01_36228a.ogg": {
+  "src": "impact/80-cc0-creature-sfx/bug_01.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "bug_02_45ee35.ogg": {
+  "src": "impact/80-cc0-creature-sfx/bug_02.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "cute_03_10417b.ogg": {
+  "src": "impact/80-cc0-creature-sfx/cute_03.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "cute_01_34aa64.ogg": {
+  "src": "impact/80-cc0-creature-sfx/cute_01.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "cute_02_589739.ogg": {
+  "src": "impact/80-cc0-creature-sfx/cute_02.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "cute_05_eafaf4.ogg": {
+  "src": "impact/80-cc0-creature-sfx/cute_05.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "piggrunt1_9d605b.wav": {
+  "src": "impact/15-monster-gruntpaindeath-sounds/monster/piggrunt1.wav",
+  "pack": "15 monster grunt/pain/death",
+  "license": "CC BY 3.0 (출처 표시: Michel Baradari)",
+  "url": "https://opengameart.org/content/15-monster-gruntpaindeath-sounds"
+ },
+ "piggrunt2_101d3b.wav": {
+  "src": "impact/15-monster-gruntpaindeath-sounds/monster/piggrunt2.wav",
+  "pack": "15 monster grunt/pain/death",
+  "license": "CC BY 3.0 (출처 표시: Michel Baradari)",
+  "url": "https://opengameart.org/content/15-monster-gruntpaindeath-sounds"
+ },
+ "creature_monster_01_7f3352.ogg": {
+  "src": "weapon/80-cc0-rpg-sfx/creature_monster_01.ogg",
+  "pack": "80 CC0 RPG SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-rpg-sfx"
+ },
+ "troll_03_806a75.ogg": {
+  "src": "impact/80-cc0-creature-sfx/troll_03.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "monster_03_ec4246.ogg": {
+  "src": "impact/80-cc0-creature-sfx/monster_03.ogg",
+  "pack": "80 CC0 creature SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
+ },
+ "creature_monster_03_ad428b.ogg": {
+  "src": "weapon/80-cc0-rpg-sfx/creature_monster_03.ogg",
+  "pack": "80 CC0 RPG SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-rpg-sfx"
+ },
+ "sfx_movement_stairs1a_dbe080.wav": {
+  "src": "ui/512-sound-effects-8-bit-style/The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala/Movement/Climbing Stairs/sfx_movement_stairs1a.wav",
+  "pack": "512 Sound Effects 8-bit (Juhani Junkala)",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/512-sound-effects-8-bit-style"
+ },
+ "chop_44d508.ogg": {
+  "src": "weapon/rpg-audio/Audio/chop.ogg",
+  "pack": "Kenney RPG Audio",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "sfx100v2_wood_hit_01_69fe15.ogg": {
+  "src": "impact/100-cc0-sfx-2/sfx100v2_wood_hit_01.ogg",
+  "pack": "100 CC0 SFX #2",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/100-cc0-sfx-2"
+ },
+ "impactMining_000_20fe04.ogg": {
+  "src": "impact/impact-sounds/Audio/impactMining_000.ogg",
+  "pack": "Kenney Impact Sounds",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "impactMining_002_e1aee4.ogg": {
+  "src": "impact/impact-sounds/Audio/impactMining_002.ogg",
+  "pack": "Kenney Impact Sounds",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "cloth2_6e9653.ogg": {
+  "src": "weapon/rpg-audio/Audio/cloth2.ogg",
+  "pack": "Kenney RPG Audio",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "footstep_grass_002_740be3.ogg": {
+  "src": "impact/impact-sounds/Audio/footstep_grass_002.ogg",
+  "pack": "Kenney Impact Sounds",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "item_gem_02_c4cd1d.ogg": {
+  "src": "weapon/80-cc0-rpg-sfx/item_gem_02.ogg",
+  "pack": "80 CC0 RPG SFX",
+  "license": "CC0",
+  "url": "https://opengameart.org/content/80-cc0-rpg-sfx"
+ },
+ "click_002_ab55a4.ogg": {
+  "src": "ui/interface-sounds/Audio/click_002.ogg",
+  "pack": "Kenney Interface Sounds",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/interface-sounds"
+ },
+ "handleCoins2_b0770f.ogg": {
+  "src": "weapon/rpg-audio/Audio/handleCoins2.ogg",
+  "pack": "Kenney RPG Audio",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "clothBelt_4249c3.ogg": {
+  "src": "weapon/rpg-audio/Audio/clothBelt.ogg",
+  "pack": "Kenney RPG Audio",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "scratch_001_1f671a.ogg": {
+  "src": "ui/interface-sounds/Audio/scratch_001.ogg",
+  "pack": "Kenney Interface Sounds",
+  "license": "CC0",
+  "url": "https://kenney.nl/assets/interface-sounds"
  }
 }

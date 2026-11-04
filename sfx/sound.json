@@ -1,0 +1,102 @@
+{
+ "swordSwing": {
+  "files": [
+   "swing2_d887bb.wav",
+   "swing3_4a9889.wav"
+  ],
+  "gain": 0.6
+ },
+ "swordHit": {
+  "files": [
+   "420674__sypherzent__deep-cut-slash-gash_e0b43b.wav"
+  ],
+  "gain": 0.6
+ },
+ "bowShot": {
+  "files": [
+   "Single_Fantasy_SFX_Pack_Vol_1_Bow_Arrow__460bc2.wav",
+   "Single_Fantasy_SFX_Pack_Vol_1_Bow_Arrow__baa366.wav"
+  ],
+  "gain": 0.7
+ },
+ "arrowHit": {
+  "files": [
+   "Single_Fantasy_SFX_Pack_Vol_1_Bow_Arrow__2cb4a4.wav",
+   "Single_Fantasy_SFX_Pack_Vol_1_Bow_Arrow__8e069a.wav"
+  ],
+  "gain": 0.6
+ },
+ "partyHurt": {
+  "files": [
+   "grunt_01_686dc8.ogg",
+   "grunt_02_dac171.ogg"
+  ],
+  "gain": 0.5
+ },
+ "partyDown": {
+  "files": [
+   "grunt_03_4dce5e.ogg"
+  ],
+  "gain": 0.6,
+  "rate": 0.8
+ },
+ "wolfBite": {
+  "files": [
+   "barking_01_a33f93.ogg",
+   "barking_02_a4e49a.ogg"
+  ],
+  "gain": 0.6
+ },
+ "wolfAggro": {
+  "files": [
+   "howl_d92529.ogg"
+  ],
+  "gain": 0.5,
+  "max": 1.2
+ },
+ "wolfHurt": {
+  "files": [
+   "hurt_01_ae82ad.ogg",
+   "hurt_02_58143f.ogg",
+   "hurt_03_3d962c.ogg"
+  ],
+  "gain": 0.6
+ },
+ "wolfDie": {
+  "files": [
+   "hurt_04_0da095.ogg"
+  ],
+  "gain": 0.7,
+  "rate": 0.75
+ },
+ "footstep": {
+  "files": [
+   "footstep00_67a7fb.ogg",
+   "footstep01_a2d5ef.ogg",
+   "footstep02_5673b3.ogg",
+   "footstep03_46c4e3.ogg"
+  ],
+  "gain": 0.25
+ },
+ "doorOpen": {
+  "files": [
+   "doorOpen_1_6946af.ogg",
+   "doorOpen_2_086a2d.ogg"
+  ],
+  "gain": 0.7
+ },
+ "doorClose": {
+  "files": [
+   "doorClose_1_7e0d0e.ogg",
+   "doorClose_2_8de19b.ogg"
+  ],
+  "gain": 0.7
+ },
+ "hiddenDoor": {
+  "files": [
+   "stones_01_cb12a9.ogg"
+  ],
+  "gain": 0.8,
+  "rate": 0.7
+ }
+}

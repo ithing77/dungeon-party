@@ -42,25 +42,23 @@
  },
  "wolfBite": {
   "files": [
-   "barking_01_a33f93.ogg",
-   "barking_02_a4e49a.ogg"
+   "342204__christopherderp__beast-snarling_ab2995.mp3",
+   "190595__deleted-user-3424813__dog-snarl-_b44b8c.mp3"
   ],
   "gain": 0.6
  },
  "wolfAggro": {
   "files": [
-   "howl_d92529.ogg"
+   "203342__kiwisarecool__howl-of-the-night_3cad07.mp3"
   ],
   "gain": 0.5,
-  "max": 1.2
+  "max": 3.5
  },
  "wolfHurt": {
   "files": [
-   "hurt_01_ae82ad.ogg",
-   "hurt_02_58143f.ogg",
-   "hurt_03_3d962c.ogg"
+   "429109__cazadordoblekatana__15-wolfcryin_bdcf26.mp3"
   ],
-  "gain": 0.6
+  "gain": 0.55
  },
  "wolfDie": {
   "files": [
@@ -101,26 +99,22 @@
  },
  "ratBite": {
   "files": [
-   "bug_01_36228a.ogg",
-   "bug_02_45ee35.ogg"
+   "536753__egomassive__rat-ogg_b376f9.mp3"
   ],
-  "gain": 0.5,
-  "rate": 1.3
+  "gain": 0.5
  },
  "ratAggro": {
   "files": [
-   "cute_03_10417b.ogg"
+   "288941__toefur__rat-squeak-wav_1209d1.mp3"
   ],
-  "gain": 0.4,
-  "rate": 1.4
+  "gain": 0.45
  },
  "ratHurt": {
   "files": [
-   "cute_01_34aa64.ogg",
-   "cute_02_589739.ogg"
+   "188043__antumdeluge__mouse_ccb767.mp3",
+   "445958__breviceps__cartoon-bat-mouse-squ_420c13.mp3"
   ],
-  "gain": 0.5,
-  "rate": 1.3
+  "gain": 0.5
  },
  "ratDie": {
   "files": [
@@ -131,32 +125,28 @@
  },
  "boarAttack": {
   "files": [
-   "piggrunt1_9d605b.wav",
-   "piggrunt2_101d3b.wav"
+   "233183__jarredgibb__pig-multiple-snorts-_63647b.mp3",
+   "233182__jarredgibb__pig-multiple-snorts-_499825.mp3"
   ],
   "gain": 0.6
  },
  "boarAggro": {
   "files": [
-   "creature_monster_01_7f3352.ogg"
+   "330704__mr-marcello__wild-pig-cartoon_6c811b.mp3"
   ],
-  "gain": 0.6,
-  "rate": 0.8
+  "gain": 0.55
  },
  "boarHurt": {
   "files": [
-   "troll_03_806a75.ogg",
-   "monster_03_ec4246.ogg"
+   "442907__qubodup__pig-grunt_39cc1b.mp3"
   ],
-  "gain": 0.55,
-  "rate": 1.1
+  "gain": 0.6
  },
  "boarDie": {
   "files": [
-   "creature_monster_03_ad428b.ogg"
+   "842313__thekingofgeeks360__swine-pig-din_8a153d.mp3"
   ],
-  "gain": 0.65,
-  "rate": 0.7
+  "gain": 0.65
  },
  "stairs": {
   "files": [
@@ -214,5 +204,103 @@
    "scratch_001_1f671a.ogg"
   ],
   "gain": 0.5
+ },
+ "amb_entrance": {
+  "files": [
+   "422720__grubzyy__a-dungeon-ambience-loop_14891f.mp3"
+  ],
+  "gain": 0.35
+ },
+ "amb_hall": {
+  "files": [
+   "192207__fawkes027__dark-athmosphere-fbon_c89c97.mp3"
+  ],
+  "gain": 0.3
+ },
+ "amb_greathall": {
+  "files": [
+   "201513__iamdead324__underground-prison-w_9eea22.mp3"
+  ],
+  "gain": 0.35
+ },
+ "amb_maze": {
+  "files": [
+   "177031__iampagan__droplets-in-a-cave_1e44c1.mp3"
+  ],
+  "gain": 0.45
+ },
+ "amb_deep": {
+  "files": [
+   "512513__shelbyshark__horrorcaveambience-_fe4497.mp3"
+  ],
+  "gain": 0.45
+ },
+ "amb_shrine": {
+  "files": [
+   "262604__erictuten__wind-through-a-pipe-w_636778.mp3"
+  ],
+  "gain": 0.25
+ },
+ "amb_town": {
+  "files": [
+   "129678__freethinkeranon__crickets_ce45ba.mp3"
+  ],
+  "gain": 0.3
+ },
+ "amb_shop": {
+  "files": [
+   "532191__mcmikai__fire-in-the-stove_5892f3.mp3"
+  ],
+  "gain": 0.3
+ },
+ "amb_inn": {
+  "files": [
+   "326313__ivolipa__tavern-ambience-inside-_bb61d9.mp3"
+  ],
+  "gain": 0.5
+ },
+ "amb_map": {
+  "files": [
+   "563766__florianreichelt__fire-crackles_f5b188.mp3"
+  ],
+  "gain": 0.25
+ },
+ "amb_altar": {
+  "files": [
+   "262604__erictuten__wind-through-a-pipe-w_636778.mp3"
+  ],
+  "gain": 0.3
+ },
+ "loop_torch": {
+  "files": [
+   "508110__ahriik__fire-ambience-flames-cra_440c07.mp3"
+  ],
+  "gain": 0.45
+ },
+ "loop_campfire": {
+  "files": [
+   "350757__aerror__campfire-wav_584553.mp3"
+  ],
+  "gain": 0.6
+ },
+ "spot_deep": {
+  "files": [
+   "203342__kiwisarecool__howl-of-the-night_3cad07.mp3",
+   "342204__christopherderp__beast-snarling_ab2995.mp3"
+  ],
+  "gain": 0.35
+ },
+ "spot_maze": {
+  "files": [
+   "288941__toefur__rat-squeak-wav_1209d1.mp3",
+   "23163__billy-magnum__drip-mp3_42cc45.mp3"
+  ],
+  "gain": 0.3
+ },
+ "spot_greathall": {
+  "files": [
+   "396048__rezidentevil__hard-breath-wav_4e9ec4.mp3"
+  ],
+  "gain": 0.25
  }
 }

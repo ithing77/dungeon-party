@@ -29,42 +29,6 @@
   "license": "CC0",
   "url": "https://opengameart.org/content/80-cc0-creature-sfx"
  },
- "barking_01_a33f93.ogg": {
-  "src": "impact/80-cc0-creature-sfx/barking_01.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "barking_02_a4e49a.ogg": {
-  "src": "impact/80-cc0-creature-sfx/barking_02.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "howl_d92529.ogg": {
-  "src": "impact/80-cc0-creature-sfx/howl.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "hurt_01_ae82ad.ogg": {
-  "src": "impact/80-cc0-creature-sfx/hurt_01.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "hurt_02_58143f.ogg": {
-  "src": "impact/80-cc0-creature-sfx/hurt_02.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "hurt_03_3d962c.ogg": {
-  "src": "impact/80-cc0-creature-sfx/hurt_03.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
  "hurt_04_0da095.ogg": {
   "src": "impact/80-cc0-creature-sfx/hurt_04.ogg",
   "pack": "80 CC0 creature SFX",
@@ -155,77 +119,11 @@
   "license": "CC BY 4.0 (출처 표시)",
   "url": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1"
  },
- "bug_01_36228a.ogg": {
-  "src": "impact/80-cc0-creature-sfx/bug_01.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "bug_02_45ee35.ogg": {
-  "src": "impact/80-cc0-creature-sfx/bug_02.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "cute_03_10417b.ogg": {
-  "src": "impact/80-cc0-creature-sfx/cute_03.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "cute_01_34aa64.ogg": {
-  "src": "impact/80-cc0-creature-sfx/cute_01.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "cute_02_589739.ogg": {
-  "src": "impact/80-cc0-creature-sfx/cute_02.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
  "cute_05_eafaf4.ogg": {
   "src": "impact/80-cc0-creature-sfx/cute_05.ogg",
   "pack": "80 CC0 creature SFX",
   "license": "CC0",
   "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "piggrunt1_9d605b.wav": {
-  "src": "impact/15-monster-gruntpaindeath-sounds/monster/piggrunt1.wav",
-  "pack": "15 monster grunt/pain/death",
-  "license": "CC BY 3.0 (출처 표시: Michel Baradari)",
-  "url": "https://opengameart.org/content/15-monster-gruntpaindeath-sounds"
- },
- "piggrunt2_101d3b.wav": {
-  "src": "impact/15-monster-gruntpaindeath-sounds/monster/piggrunt2.wav",
-  "pack": "15 monster grunt/pain/death",
-  "license": "CC BY 3.0 (출처 표시: Michel Baradari)",
-  "url": "https://opengameart.org/content/15-monster-gruntpaindeath-sounds"
- },
- "creature_monster_01_7f3352.ogg": {
-  "src": "weapon/80-cc0-rpg-sfx/creature_monster_01.ogg",
-  "pack": "80 CC0 RPG SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-rpg-sfx"
- },
- "troll_03_806a75.ogg": {
-  "src": "impact/80-cc0-creature-sfx/troll_03.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "monster_03_ec4246.ogg": {
-  "src": "impact/80-cc0-creature-sfx/monster_03.ogg",
-  "pack": "80 CC0 creature SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-creature-sfx"
- },
- "creature_monster_03_ad428b.ogg": {
-  "src": "weapon/80-cc0-rpg-sfx/creature_monster_03.ogg",
-  "pack": "80 CC0 RPG SFX",
-  "license": "CC0",
-  "url": "https://opengameart.org/content/80-cc0-rpg-sfx"
  },
  "sfx_movement_stairs1a_dbe080.wav": {
   "src": "ui/512-sound-effects-8-bit-style/The Essential Retro Video Game Sound Effects Collection [512 sounds] By Juhani Junkala/Movement/Climbing Stairs/sfx_movement_stairs1a.wav",
@@ -298,5 +196,167 @@
   "pack": "Kenney Interface Sounds",
   "license": "CC0",
   "url": "https://kenney.nl/assets/interface-sounds"
+ },
+ "342204__christopherderp__beast-snarling_ab2995.mp3": {
+  "src": "freesound/creature/342204__christopherderp__beast-snarling.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/Christopherderp/sounds/342204/"
+ },
+ "190595__deleted-user-3424813__dog-snarl-_b44b8c.mp3": {
+  "src": "freesound/creature/190595__deleted-user-3424813__dog-snarl-self-made.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/deleted_user_3424813/sounds/190595/"
+ },
+ "203342__kiwisarecool__howl-of-the-night_3cad07.mp3": {
+  "src": "freesound/creature/203342__kiwisarecool__howl-of-the-night.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/kiwisarecool/sounds/203342/"
+ },
+ "429109__cazadordoblekatana__15-wolfcryin_bdcf26.mp3": {
+  "src": "freesound/creature/429109__cazadordoblekatana__15-wolfcrying-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/cazadordoblekatana/sounds/429109/"
+ },
+ "536753__egomassive__rat-ogg_b376f9.mp3": {
+  "src": "freesound/creature/536753__egomassive__rat-ogg.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/egomassive/sounds/536753/"
+ },
+ "288941__toefur__rat-squeak-wav_1209d1.mp3": {
+  "src": "freesound/creature/288941__toefur__rat-squeak-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/toefur/sounds/288941/"
+ },
+ "188043__antumdeluge__mouse_ccb767.mp3": {
+  "src": "freesound/creature/188043__antumdeluge__mouse.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/AntumDeluge/sounds/188043/"
+ },
+ "445958__breviceps__cartoon-bat-mouse-squ_420c13.mp3": {
+  "src": "freesound/creature/445958__breviceps__cartoon-bat-mouse-squeak.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/Breviceps/sounds/445958/"
+ },
+ "233183__jarredgibb__pig-multiple-snorts-_63647b.mp3": {
+  "src": "freesound/creature/233183__jarredgibb__pig-multiple-snorts-2-2-pigs-96khz-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/JarredGibb/sounds/233183/"
+ },
+ "233182__jarredgibb__pig-multiple-snorts-_499825.mp3": {
+  "src": "freesound/creature/233182__jarredgibb__pig-multiple-snorts-3-2-pigs-96khz-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/JarredGibb/sounds/233182/"
+ },
+ "330704__mr-marcello__wild-pig-cartoon_6c811b.mp3": {
+  "src": "freesound/creature/330704__mr-marcello__wild-pig-cartoon.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/mr_marcello/sounds/330704/"
+ },
+ "442907__qubodup__pig-grunt_39cc1b.mp3": {
+  "src": "freesound/creature/442907__qubodup__pig-grunt.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/qubodup/sounds/442907/"
+ },
+ "842313__thekingofgeeks360__swine-pig-din_8a153d.mp3": {
+  "src": "freesound/creature/842313__thekingofgeeks360__swine-pig-dinosaur-like-grunt.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/TheKingOfGeeks360/sounds/842313/"
+ },
+ "422720__grubzyy__a-dungeon-ambience-loop_14891f.mp3": {
+  "src": "freesound/ambient/422720__grubzyy__a-dungeon-ambience-loop-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/Grubzyy/sounds/422720/"
+ },
+ "192207__fawkes027__dark-athmosphere-fbon_c89c97.mp3": {
+  "src": "freesound/ambient/192207__fawkes027__dark-athmosphere-fbone-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/fawkes027/sounds/192207/"
+ },
+ "201513__iamdead324__underground-prison-w_9eea22.mp3": {
+  "src": "freesound/ambient/201513__iamdead324__underground-prison-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/iamdead324/sounds/201513/"
+ },
+ "177031__iampagan__droplets-in-a-cave_1e44c1.mp3": {
+  "src": "freesound/ambient/177031__iampagan__droplets-in-a-cave.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/iampagan/sounds/177031/"
+ },
+ "512513__shelbyshark__horrorcaveambience-_fe4497.mp3": {
+  "src": "freesound/ambient/512513__shelbyshark__horrorcaveambience-mp3.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/shelbyshark/sounds/512513/"
+ },
+ "262604__erictuten__wind-through-a-pipe-w_636778.mp3": {
+  "src": "freesound/ambient/262604__erictuten__wind-through-a-pipe-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/EricTuten/sounds/262604/"
+ },
+ "129678__freethinkeranon__crickets_ce45ba.mp3": {
+  "src": "freesound/ambient/129678__freethinkeranon__crickets.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/FreethinkerAnon/sounds/129678/"
+ },
+ "532191__mcmikai__fire-in-the-stove_5892f3.mp3": {
+  "src": "freesound/ambient/532191__mcmikai__fire-in-the-stove.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/mcmikai/sounds/532191/"
+ },
+ "326313__ivolipa__tavern-ambience-inside-_bb61d9.mp3": {
+  "src": "freesound/ambient/326313__ivolipa__tavern-ambience-inside-laughter-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/ivolipa/sounds/326313/"
+ },
+ "563766__florianreichelt__fire-crackles_f5b188.mp3": {
+  "src": "freesound/ambient/563766__florianreichelt__fire-crackles.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/florianreichelt/sounds/563766/"
+ },
+ "508110__ahriik__fire-ambience-flames-cra_440c07.mp3": {
+  "src": "freesound/ambient/508110__ahriik__fire-ambience-flames-crackles-pops-burni.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/ahriik/sounds/508110/"
+ },
+ "350757__aerror__campfire-wav_584553.mp3": {
+  "src": "freesound/ambient/350757__aerror__campfire-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/aerror/sounds/350757/"
+ },
+ "23163__billy-magnum__drip-mp3_42cc45.mp3": {
+  "src": "freesound/ambient/23163__billy-magnum__drip-mp3.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/billy_magnum/sounds/23163/"
+ },
+ "396048__rezidentevil__hard-breath-wav_4e9ec4.mp3": {
+  "src": "freesound/creature/396048__rezidentevil__hard-breath-wav.mp3",
+  "pack": "freesound",
+  "license": "CC0",
+  "url": "https://freesound.org/people/rezidentevil/sounds/396048/"
  }
 }

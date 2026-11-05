@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>에버퀘스트 작업실</title>
+<style>
+:root{--bg:#14110d;--panel:#211b14;--line:#3a3024;--text:#efe4cf;--muted:#a8987c;--gold:#e0b45a;--bad:#e2664f}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;font-size:14px}
+button,select,input{font-family:inherit;font-size:14px;color:var(--text)}
+button{min-height:40px;padding:0 14px;background:#2b2319;border:1px solid #4d3f2c;border-radius:8px;font-weight:700;cursor:pointer}
+button.on{background:#4a3a1c;border-color:var(--gold)}
+button:disabled{opacity:.45;cursor:default}
+select,input[type=search]{min-height:40px;padding:0 10px;background:var(--panel);border:1px solid #4d3f2c;border-radius:8px;max-width:100%}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:12px 20px;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:19px;color:var(--gold)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+a.btn{display:inline-flex;align-items:center;min-height:40px;padding:0 12px;border:1px solid #4d3f2c;border-radius:8px;color:var(--text);text-decoration:none;font-weight:700}
+.status{margin-left:auto;color:var(--muted);min-height:20px}
+.status.bad{color:var(--bad)}
+main{padding:14px 20px;max-width:1300px;margin:0 auto}
+.note{color:var(--muted);margin:0 0 12px;line-height:1.6}
+.group{margin:18px 0 8px;font-size:13px;color:var(--muted);font-weight:700}
+/* 이미지 */
+.imgs{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.card{background:var(--panel);border:1.5px solid var(--line);border-radius:10px;padding:8px;cursor:pointer;min-width:0}
+.card.on{border-color:var(--gold)}
+.card.missing{opacity:.55;cursor:default}
+.thumb{width:100%;aspect-ratio:1;object-fit:contain;display:block;border-radius:6px;background:repeating-conic-gradient(#2a231a 0 25%,#221c15 0 50%) 0 0/16px 16px}
+.card .n{font-weight:700;margin-top:6px;font-size:13px}
+.card .p{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.side{background:var(--panel);border-radius:10px;padding:12px;position:sticky;top:12px;align-self:start}
+.side img{width:100%;max-height:380px;object-fit:contain;border-radius:8px;background:repeating-conic-gradient(#2a231a 0 25%,#221c15 0 50%) 0 0/20px 20px}
+.kv{display:grid;grid-template-columns:64px 1fr;gap:4px 8px;font-size:12px;margin-top:8px;word-break:break-all}
+.kv div:nth-child(odd){color:var(--muted)}
+/* 리소스 */
+iframe{width:100%;height:calc(100vh - 150px);border:0;border-radius:10px;background:var(--panel)}
+/* 소리 */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:10px}
+.slot{background:var(--panel);padding:12px;border-radius:10px}
+.slot-head{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.slot-head b{font-size:15px;flex:1}
+.slot-head small{color:var(--muted);font-weight:400}
+.file{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.file span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px}
+.file button{min-height:32px;padding:0 8px;font-size:12px}
+.empty{font-size:12px;color:var(--muted);margin:0 0 6px}
+.range{display:grid;grid-template-columns:64px minmax(0,1fr) 52px;gap:8px;align-items:center;font-size:12px;color:var(--muted);min-height:30px}
+.range input{width:100%;accent-color:var(--gold)}
+.range em{font-style:normal;text-align:right;color:var(--text)}
+.check{display:flex;align-items:center;gap:8px;min-height:32px;font-size:12px;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.filters input[type=search]{flex:1 1 220px}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:6px 0;border-bottom:1px solid var(--line)}
+.row .name{flex:1 1 220px;min-width:0;overflow-wrap:anywhere}
+.row .sub{display:block;font-size:12px;color:var(--muted)}
+.row .used{color:var(--gold);font-size:12px}
+.more{width:100%;margin-top:12px}
+.count{color:var(--muted);font-size:13px;margin-bottom:6px}
+.links{display:flex;gap:6px;flex-wrap:wrap}
+a.btn.ghost{opacity:.75}
+nav.tabs{width:100%;display:flex;gap:6px}
+nav.tabs button{min-height:40px}
+.mapbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:8px}
+.mapbar button{min-height:36px;padding:0 10px}
+.mapbar .gold{background:#4a3a1c;border-color:var(--gold)}
+.mapbar .sep{width:10px}
+.muted{color:var(--muted);font-size:13px}
+.mapwrap{display:grid;grid-template-columns:250px minmax(0,1fr);gap:12px;align-items:start}
+.mapside{background:var(--panel);border-radius:10px;padding:10px;max-height:calc(100vh - 230px);overflow:auto}
+.pgroup{margin-bottom:10px}
+.pg{font-size:12px;color:var(--muted);margin:6px 0 4px}
+.pal{display:flex;align-items:center;gap:8px;width:100%;min-height:30px;padding:2px 6px;margin-bottom:3px;font-size:13px;font-weight:400;text-align:left}
+.pal.on{background:#4a3a1c;border-color:var(--gold)}
+.sw{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;color:#111;font-weight:700;font-size:12px;flex:none}
+.zline{display:flex;gap:6px;align-items:center;margin-bottom:6px;font-size:13px}
+.zline select{min-height:32px}
+#toolZone{min-height:32px;padding:0 8px;font-size:13px}
+#toolZone.on{background:#4a3a1c;border-color:var(--gold)}
+.zrow{display:flex;align-items:center;gap:6px;font-size:12px;margin:3px 0}
+.zrow small{color:var(--muted)}
+.zrow button{margin-left:auto;min-height:26px;padding:0 6px;font-size:11px}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.mapview{overflow:auto;max-height:calc(100vh - 230px);background:#0b0806;border-radius:10px;padding:8px}
+#mapCanvas{display:block;cursor:crosshair;image-rendering:pixelated}
+.maphelp{display:flex;gap:16px;margin-top:6px;font-size:13px;color:var(--muted);min-height:20px}
+@media (max-width:860px){.imgs{grid-template-columns:1fr}.side{position:static}header,main{padding-left:16px;padding-right:16px}.status{margin-left:0;width:100%}}
+  .readonly { display: none; }
+  html.static .readonly { display: block; color: #f0c674; font-size: 13px; padding: 2px 0; }
+  html.static [data-tab="res"], html.static #tabLib, html.static #saveMap, html.static [data-pick] { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚔ 작은 에버퀘스트 작업실</h1>
+  <div class="links">
+    <a class="btn" href="http://localhost:5180/" target="_blank" rel="noopener">▶ 게임 (이어하기)</a>
+    <a class="btn" href="http://localhost:5180/?map=arena" target="_blank" rel="noopener">🐺 전투 연습장</a>
+    <a class="btn ghost" href="https://ithing77.github.io/dungeon-party/" target="_blank" rel="noopener">🌐 공개 주소</a>
+  </div>
+  <div class="status" id="status" role="status"></div>
+  <div class="readonly">👀 보기 전용 · 고친 건 저장되지 않아 (저장은 집 작업실에서)</div>
+  <script>
+    // 보기 전용: 공개 주소(깃허브)에 올라간 작업실. 서버가 없어서 미리 뽑아 둔 목록(data/)을 읽고 저장은 안 된다.
+    window.STATIC = location.port !== '8813';
+    window.ASSET_BASE = window.STATIC ? '../' : '/assets/';
+    if (window.STATIC) {
+      document.documentElement.classList.add('static');
+      const real = window.fetch.bind(window);
+      window.fetch = (url, opt) => {
+        url = String(url);
+        if (opt && opt.method === 'POST') return Promise.resolve(new Response('보기 전용 작업실이라 저장은 집 컴퓨터에서만 돼', { status: 403 }));
+        if (url === '/api/maps') return real('data/maps.json');
+        if (url === '/api/images') return real('data/images.json');
+        if (url.startsWith('/assets/')) return real('../' + url.slice(8));
+        if (url.startsWith('/lib/')) return Promise.reject(new Error('보관함은 집에만 있음'));
+        return real(url, opt);
+      };
+    }
+    // 게임 주소: 집에선 5180 포트, 보기 전용에선 한 칸 위 폴더가 게임이다
+    window.GAME_URL = window.STATIC ? new URL('..', location.href).href.replace(/\/$/, '') : `http://${location.hostname}:5180`;
+    // 회사(테일스케일)에서 열어도 게임 버튼이 이 컴퓨터의 게임으로 가게
+    for (const a of document.querySelectorAll('a[href^="http://localhost:5180"]')) a.href = a.href.replace('http://localhost:5180', window.GAME_URL);
+  </script>
+  <nav class="tabs">
+    <button type="button" data-tab="maps" class="on">🗺 맵</button>
+    <button type="button" data-tab="images">🖼 이미지</button>
+    <button type="button" data-tab="sound">🔊 소리</button>
+    <button type="button" data-tab="res">🗂 리소스</button>
+  </nav>
+</header>
+<main>
+  <section id="maps">
+    <div class="mapbar">
+      <select id="mapSel" aria-label="맵"></select>
+      <button type="button" id="undo" title="Ctrl+Z">↶ 되돌리기</button>
+      <button type="button" id="check">✓ 검사</button>
+      <button type="button" id="saveMap" class="gold" title="Ctrl+S">💾 저장</button>
+      <button type="button" id="playMap">▶ 이 맵 해 보기</button>
+      <span class="sep"></span>
+      <button type="button" id="zoomOut">－</button><button type="button" id="zoomIn">＋</button>
+      <span class="sep"></span>
+      <button type="button" id="colAdd">열 +</button><button type="button" id="colDel">열 −</button>
+      <button type="button" id="rowAdd">줄 +</button><button type="button" id="rowDel">줄 −</button>
+      <span id="mapSize" class="muted"></span>
+    </div>
+    <p class="note"><span id="mapNote"></span> · 왼쪽 끌기 = 칠하기, 오른쪽 끌기 = 벽, Alt+누르기 = 그 칸 글자 집기. 저장하면 게임을 새로고침할 때 바뀐 맵으로 나와.</p>
+    <div class="mapwrap">
+      <aside class="mapside">
+        <div id="palette"></div>
+        <div class="pgroup">
+          <div class="pg">구역 (분위기·소리·벽 그림)</div>
+          <div class="zline">기본 구역 <select id="baseZone"></select></div>
+          <div class="zline"><button type="button" id="toolZone">▭ 구역 네모 그리기</button> <select id="zoneSel"></select></div>
+          <div id="zoneList"></div>
+        </div>
+      </aside>
+      <div class="mapview"><canvas id="mapCanvas"></canvas></div>
+    </div>
+    <div class="maphelp"><span id="mapHover"></span> <span id="mapStatus" class="status"></span></div>
+  </section>
+
+  <section id="images" hidden>
+    <p class="note">이 게임에 들어간 그림이야 (C:\AI\MightMagic\assets). 같은 이름으로 파일을 바꿔 넣고 게임을 새로고침하면 바로 바뀌어.</p>
+    <div class="imgs">
+      <div id="imageGroups"></div>
+      <div class="side" id="imageSide"><p class="note">왼쪽에서 그림을 누르면 여기서 크게 보여.</p></div>
+    </div>
+  </section>
+
+  <section id="res" hidden>
+    <p class="note">여러 게임이 같이 쓰는 공용 창고 (C:\AI\Assets). 재배포 금지 그림이 섞여 있어서 구경·참고용이야. 쓰고 싶은 게 있으면 대화창에 이름을 알려 줘.</p>
+    <iframe id="resFrame" title="리소스 창고" loading="lazy"></iframe>
+  </section>
+
+  <section id="sound" hidden>
+    <div class="filters">
+      <button type="button" id="tabUsed" class="on">적용된 소리</button>
+      <button type="button" id="tabLib">소리 찾기 (보관함)</button>
+    </div>
+    <div id="usedView">
+      <p class="note">바꾸면 바로 저장돼. 게임을 새로고침하면 반영. 파일이 여러 개면 게임에서 번갈아 나와.</p>
+      <div id="slots"></div>
+    </div>
+    <div id="libView" hidden>
+      <p class="note">친구에게 나눠 줄 수 있게 CC0·CC BY 소리만 넣을 수 있어. 다른 소리는 들어만 볼 수 있어.</p>
+      <div class="filters">
+        <input type="search" id="q" placeholder="이름이나 묶음으로 찾기 (영어: sword, wolf, door…)" aria-label="소리 찾기">
+        <select id="cat" aria-label="종류"></select>
+        <select id="target" aria-label="넣을 칸"></select>
+        <label class="check"><input type="checkbox" id="onlyOk" checked>넣을 수 있는 것만</label>
+      </div>
+      <div class="count" id="count"></div>
+      <div id="list"></div>
+      <button type="button" class="more" id="more">더 보기</button>
+    </div>
+  </section>
+</main>
+<script src="maps.js"></script>
+<script src="workshop.js"></script>
+</body>
+</html>
